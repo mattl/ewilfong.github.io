@@ -962,5 +962,7 @@ ol.arabic-markers {
 
 	.slide-close { top: 40px; }
 
+	img.slide-logo { display: none; }
+
 	.slide-trigger button { display: none; }
 }
