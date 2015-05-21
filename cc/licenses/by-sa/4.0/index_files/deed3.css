@@ -828,3 +828,133 @@ ol.arabic-markers {
  }
 
 }
+
+
+/* Donate Slide Styles
+------------------------------------ */
+#deed-donate-slide {
+	width: 240px;
+	margin: 0 auto 0 -240px;
+	position: fixed;
+	left: 0;
+	bottom: 15px;
+	z-index: 1000;
+	font: 13px/17px "Helvetica Neue","Helvetica","Nimbus Sans L",arial,verdana,sans-serif;
+	text-align: center;
+	color: #fff;
+	display: table;
+	-moz-box-shadow:    1px 2px 6px rgba(0,0,0,.3);
+	-webkit-box-shadow: 1px 2px 6px rgba(0,0,0,.3);
+	box-shadow:         1px 2px 6px rgba(0,0,0,.3);
+	-webkit-transition: margin .3s ease-in-out;
+	-moz-transition:    margin .3s ease-in-out;
+	-o-transition:      margin .3s ease-in-out;
+	-ms-transition:    margin .3s ease-in-out;
+	transition:         margin .3s ease-in-out;
+}
+#deed-donate-slide.reveal { margin-left: 0; }
+
+.slide-close {
+	background: url('../images/slide-close.png') no-repeat center center;
+	width: 16px;
+	height: 17px;
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	opacity: .4;
+	text-indent: -99999px;
+	z-index: 999; }
+.slide-close:hover { opacity: 1; }
+
+.slide-tab { display: none; }
+
+/* --- Message --- */
+.slide-trigger {
+	display: block;
+	background-color: #dc642f;
+	padding: 15px;
+	cursor: pointer;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition:    all .3s ease-in-out;
+	-o-transition:      all .3s ease-in-out;
+	-ms-transition:     all .3s ease-in-out;
+	transition:         all .3s ease-in-out;
+}
+
+.slide-trigger p { margin: 0; font-weight: 100; }
+
+.slide-trigger button {
+	background: rgba(70,34,18,.3);
+	display:inline-block;
+	padding: .5em 1em;
+	border: 0;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	-webkit-box-shadow:inset 2px 2px 6px 0 rgba(0,0,0,.2);
+	box-shadow:inset 2px 2px 6px 0 rgba(0,0,0,.2);
+	color: #fff;
+	font-size: 20px;
+	/*font-weight: bold;*/
+	margin: 15px 0 0;
+	text-decoration: none;
+	cursor: pointer;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.slide-trigger button:hover {
+	background: rgba(70,34,18,.6);
+}
+
+/* --- narrow screens --- */
+@media screen and (max-width: 1200px) {
+	#deed-donate-slide {
+		width: 200px;
+		margin: 0 auto 0 -200px;
+	}
+}
+
+@media screen and (max-width: 1120px) {
+	#deed-donate-slide {
+		width: 170px;
+		margin: 0 auto 0 -170px;
+	}
+	.slide-trigger button { font-size: 18px; }
+}
+
+@media screen and (max-width: 1060px) {
+	#deed-donate-slide {
+		z-index: 100;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		cursor: pointer;
+	}
+
+	.slide-tab {
+		position: relative;
+		top: 8px;
+		display: block;
+		width: 180px;
+		height: 30px;
+		margin: 0 auto;
+		padding: 5px .8em 0 .8em;
+		background: #dc642f;
+	}
+	.slide-tab p {
+		margin: 0px;
+		color: #fff;
+		font-size: 22px;
+		text-decoration: underline;
+	}
+
+	.slide-close { top: 40px; }
+
+	.slide-trigger button { display: none; }
+}
