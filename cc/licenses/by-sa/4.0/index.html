@@ -415,6 +415,13 @@
         $('#deed-donate-slide').remove();
       });
 
+      /* Close slider on pressing ESC */
+      $(document).keyup(function(e) {
+        if (e.keyCode === 27) {
+          $('#deed-donate-slide').remove();
+        }
+      });
+
       $(".slide-trigger, .slide-tab").click(function(){
         window.location.href = "https://donate.creativecommons.org/?utm_campaign=2015fund&utm_source=license_slide2015";
       });
