@@ -388,7 +388,7 @@
 
     </div>
 
-  <div id="deed-donate-slide" class="reveal" style="display: block;">
+  <div id="deed-donate-slide" style="display: none;">
     <div class="slide-tab"><p>Donate Now</p></div>
     <div class="slide-close"></div>
 
@@ -399,5 +399,26 @@
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#deed-donate-slide').show();
+      $(window).scroll(function() {
+        if ($(window).scrollTop() <= 160) {
+          $('#deed-donate-slide').finish();
+          //$('#deed-donate-slide').removeClass('reveal');
+        } else {
+          $('#deed-donate-slide').addClass('reveal');
+        }
+      });
+
+      $('.slide-close').click(function(event) {
+        $('#deed-donate-slide').remove();
+      });
+
+      $(".slide-trigger, .slide-tab").click(function(){
+        window.location.href = "https://donate.creativecommons.org/?utm_campaign=2015fund&utm_source=license_slide2015";
+      });
+    });
+  </script>
 
 </body></html>
