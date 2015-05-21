@@ -1,7 +1,7 @@
 /* CC Deed CSS! */
 
 /* Progress meter css */
-@import url('/includes/total.css');
+@import url('http://creativecommons.org/includes/total.css');
 
 /* Main CSS Continues */
 		body {
@@ -102,15 +102,15 @@
 		}
 
 		.red #deed-head {
-			background: url("/images/deed/deed-head-red.png") 0 0 no-repeat;
+			background: url("http://creativecommons.org/images/deed/deed-head-red.png") 0 0 no-repeat;
 		}
 		
 		.yellow #deed-head {
-			background: url("/images/deed/deed-head-yellow.png") 0 0 no-repeat;
+			background: url("http://creativecommons.org/images/deed/deed-head-yellow.png") 0 0 no-repeat;
 		}
 		
 		.green #deed-head {
-			background: url("/images/deed/deed-head-green.png") 0 0 no-repeat;
+			background: url("http://creativecommons.org/images/deed/deed-head-green.png") 0 0 no-repeat;
 		}
 		
 		.pd #deed-head {
@@ -124,7 +124,7 @@
 		}
 		
 		.pd-grey #deed-head {
-			background: url("/images/deed/deed-head-grey.png") 0 0px no-repeat;
+			background: url("http://creativecommons.org/images/deed/deed-head-grey.png") 0 0px no-repeat;
 		}
 		
 		#deed-main {
@@ -239,12 +239,12 @@
     }
 
 		#deed-rights {
-			background:  url("/images/deed/freedoms-header.png") 0 0 no-repeat;
+			background:  url("http://creativecommons.org/images/deed/freedoms-header.png") 0 0 no-repeat;
 			padding: 0;
 		}
 		
 		#deed-conditions {
-			background:  url("/images/deed/limitations-header.png") 0 0 no-repeat;
+			background:  url("http://creativecommons.org/images/deed/limitations-header.png") 0 0 no-repeat;
 			padding: 0;
 		}
 
@@ -259,7 +259,7 @@
 			padding: 0;
 			margin-top: 0px;
 			margin-bottom: 33px;
-			background:  url("/images/deed/understanding-header.png") 0 0 no-repeat;
+			background:  url("http://creativecommons.org/images/deed/understanding-header.png") 0 0 no-repeat;
 
 		}
     
@@ -342,15 +342,15 @@
 		}
 		
 		.red #deed-foot {
-			background: url("/images/deed/deed-foot-red.png") 0 0;
+			background: url("http://creativecommons.org/images/deed/deed-foot-red.png") 0 0;
 		}
 		
 		.yellow #deed-foot {
-			background: url("/images/deed/deed-foot-yellow.png") 0 0;
+			background: url("http://creativecommons.org/images/deed/deed-foot-yellow.png") 0 0;
 		}
 		
 		.green #deed-foot {
-			background: url("/images/deed/deed-foot-green.png") 0 0;
+			background: url("http://creativecommons.org/images/deed/deed-foot-green.png") 0 0;
 		}
 		
 		.pd #deed-foot {
@@ -358,7 +358,7 @@
 		}
 		
 		.pd-grey #deed-foot {
-			background: url('/images/deed/deed-foot-grey.png') 0 0 no-repeat;
+			background: url('http://creativecommons.org/images/deed/deed-foot-grey.png') 0 0 no-repeat;
 		}
 		
 		#disclaimer {
@@ -427,62 +427,62 @@
     }
 	
 		li.devnations {
-					background: url("/images/deed/devnations.png") 0 0 no-repeat;
+					background: url("http://creativecommons.org/images/deed/devnations.png") 0 0 no-repeat;
 		}
 
 		li.no-endorse{
-					background: url("/images/deed/no-endorse.png") 0 0 no-repeat;
+					background: url("http://creativecommons.org/images/deed/no-endorse.png") 0 0 no-repeat;
 		}
 		li.by {
-					background: url("/images/deed/by.png") 0 0 no-repeat;
+					background: url("http://creativecommons.org/images/deed/by.png") 0 0 no-repeat;
 		}
 		li.nc {
-					background: url("/images/deed/nc.png") 0 0 no-repeat;
+					background: url("http://creativecommons.org/images/deed/nc.png") 0 0 no-repeat;
 		}
 		li.nc-jp {
-					background: url("/images/deed/nc-jp.png") 0 0 no-repeat;
+					background: url("http://creativecommons.org/images/deed/nc-jp.png") 0 0 no-repeat;
 		}
 		li.nc-eu {
-					background: url("/images/deed/nc-eu.png") 0 0 no-repeat;
+					background: url("http://creativecommons.org/images/deed/nc-eu.png") 0 0 no-repeat;
 		}
 		li.sa {
-					background: url("/images/deed/sa.png") 0 0 no-repeat;
+					background: url("http://creativecommons.org/images/deed/sa.png") 0 0 no-repeat;
 		}
 		li.nd {
-					background: url("/images/deed/nd.png") 0 0 no-repeat;
+					background: url("http://creativecommons.org/images/deed/nd.png") 0 0 no-repeat;
 		}
 	  li.sampling, li.samplingplus{
-          background: url("/images/deed/sampling.png") 0 0 no-repeat;
+          background: url("http://creativecommons.org/images/deed/sampling.png") 0 0 no-repeat;
     }	
 		li.more {
-					background: url("/images/deed/more.png") 0 0 no-repeat;
+					background: url("http://creativecommons.org/images/deed/more.png") 0 0 no-repeat;
 		}
 
     li.notice {
-          background: url("/images/deed/notice.png") 0 0 no-repeat;
+          background: url("http://creativecommons.org/images/deed/notice.png") 0 0 no-repeat;
     }
     li.src {
-          background: url("/images/deed/src.png") 0 0 no-repeat;
+          background: url("http://creativecommons.org/images/deed/src.png") 0 0 no-repeat;
     }
     li.nolaw {
-          background: url("/images/deed/nolaw.png") 0 8px no-repeat;
+          background: url("http://creativecommons.org/images/deed/nolaw.png") 0 8px no-repeat;
     }
 		li ul li.nolaw {
-					background: url("/images/deed/nolaw-small.png") 0 8px no-repeat;
+					background: url("http://creativecommons.org/images/deed/nolaw-small.png") 0 8px no-repeat;
 					padding-left: 32px;
 		}
 	  li.usage-guidelines {
-					background: url("/images/deed/usage-guidelines.png") 0 0 no-repeat;
+					background: url("http://creativecommons.org/images/deed/usage-guidelines.png") 0 0 no-repeat;
 					margin-bottom: 25px;
 		}
 		li ul li.usage-guidelines {
-					background: url("/images/deed/usage-guidelines-small.png") 0 6px no-repeat;
+					background: url("http://creativecommons.org/images/deed/usage-guidelines-small.png") 0 6px no-repeat;
 					padding-left: 32px;
 					margin-bottom: 0;
 		}
 					
 		li.publicdomain {
-				  background: url("/images/deed/noc.png") 0 3px no-repeat;
+				  background: url("http://creativecommons.org/images/deed/noc.png") 0 3px no-repeat;
 		}
 					
 		li a {

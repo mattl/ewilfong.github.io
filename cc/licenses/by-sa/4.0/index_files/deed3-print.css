@@ -115,32 +115,32 @@ li.license p {
 }
 
 li.share {
-	list-style-image: url("/images/deed/share.png");
+	list-style-image: url("http://creativecommons.org/images/deed/share.png");
 	list-style-position: outside;
 }
 
 li.remix {
-	list-style-image: url("/images/deed/remix.png");
+	list-style-image: url("http://creativecommons.org/images/deed/remix.png");
 	list-style-position: outside;
 }
 li.devnations {
-	list-style-image: url("/images/deed/devnations.png");
+	list-style-image: url("http://creativecommons.org/images/deed/devnations.png");
 	list-style-position: outside;
 }
 li.by {
-	list-style-image: url("/images/deed/by.png");
+	list-style-image: url("http://creativecommons.org/images/deed/by.png");
 	list-style-position: outside;  
 }
 li.nc {
-	list-style-image: url("/images/deed/nc.png");
+	list-style-image: url("http://creativecommons.org/images/deed/nc.png");
 	list-style-position: outside;  
 }
 li.sa {
-	list-style-image: url("/images/deed/sa.png");
+	list-style-image: url("http://creativecommons.org/images/deed/sa.png");
 	list-style-position: outside;  
 }
 li.nd {
-	list-style-image: url("/images/deed/nd.png");
+	list-style-image: url("http://creativecommons.org/images/deed/nd.png");
 	list-style-position: outside;  
 }
 
