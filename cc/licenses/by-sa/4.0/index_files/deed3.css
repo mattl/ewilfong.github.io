@@ -875,7 +875,6 @@ ol.arabic-markers {
 	display: block;
 	background-color: #dc642f;
 	padding: 15px;
-	cursor: pointer;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition:    all .3s ease-in-out;
 	-o-transition:      all .3s ease-in-out;
@@ -883,7 +882,11 @@ ol.arabic-markers {
 	transition:         all .3s ease-in-out;
 }
 
-.slide-trigger p { margin: 0; font-weight: 600; }
+.slide-trigger p {
+	margin: 0;
+	font-weight: 600;
+	cursor: pointer;
+}
 
 .slide-trigger button {
 	background: rgba(70,34,18,.3);
@@ -934,7 +937,6 @@ ol.arabic-markers {
 		bottom: -100%;
 		width: 100%;
 		text-align: center;
-		cursor: pointer;
 		-webkit-transition: bottom .5s ease-in-out;
 		-moz-transition:    bottom .5s ease-in-out;
 		-o-transition:      bottom .5s ease-in-out;
@@ -947,19 +949,19 @@ ol.arabic-markers {
 		background: url('../images/slide-close-mobile.png') no-repeat center center;
 		width: 33px;
 		height: 33px;
-		top: 2px;
-		right: 2px;
+		top: initial;
+		bottom: 5px;
+		right: 5px;
 		opacity: .8;
 	}
 
 	.slide-trigger {
-		padding: 8px 30px;
+		padding: 10px;
 	}
 
 	img.slide-logo { display: none; }
 
 	.slide-trigger button {
 		margin: 5px 0 0;
-		padding: .3em 1em;
 	}
 }
