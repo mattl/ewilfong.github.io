@@ -401,6 +401,10 @@
   <script>
     $(document).ready(function() {
       $('#deed-donate-slide').show();
+      // Set banner to reveal after X seconds
+      setTimeout(function(){
+        $('#deed-donate-slide').addClass('reveal');
+      }, 8000);
       $(window).scroll(function() {
         if ($(window).scrollTop() <= 160) {
           $('#deed-donate-slide').finish();
@@ -409,6 +413,7 @@
           $('#deed-donate-slide').addClass('reveal');
         }
       });
+
 
       $('.slide-close').click(function(event) {
         $('#deed-donate-slide').remove();
