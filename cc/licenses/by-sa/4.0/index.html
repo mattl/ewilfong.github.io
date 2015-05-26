@@ -419,13 +419,15 @@
       });
 
       $('.slide-close').click(function(event) {
+        $('.slide-close').remove();
         $('#deed-donate-slide').removeClass('slider');
       });
 
       /* Close slider on pressing ESC */
       $(document).keyup(function(e) {
         if (e.keyCode === 27) {
-          $('#deed-donate-slide').remove();
+          $('.slide-close').remove();
+          $('#deed-donate-slide').removeClass('slider');
         }
       });
 
