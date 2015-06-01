@@ -1456,6 +1456,9 @@ table .headerSortDown.purple {
     position: relative;
     left: 0;
 }
+.topbar div>ul#short-menu {
+    float: right;
+}
 .topbar div>ul>li,
 .nav>li {
     display: block;
