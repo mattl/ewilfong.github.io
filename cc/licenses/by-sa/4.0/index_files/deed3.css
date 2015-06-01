@@ -730,6 +730,11 @@ div#languages p {
 	margin-top: 0;
 }
 
+#footer .info {
+	width: 90%;
+	margin: 0 auto;
+}
+
 .help_panel {
     display:none;
 }
